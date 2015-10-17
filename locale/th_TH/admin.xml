@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * ocs2-devel/locale/th_TH/admin.xml
+  *
+  * Copyright (c) 2015 Watchara Amasiri
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the th_TH (Thai) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="th_TH" full_name = "Thai">
+	<message key="admin.languages.primaryLocaleInstructions">นี่คือภาษาเริ่มต้นสำหรับระบบการจัดการประชุมวิชาการทั้งหมด</message>
+	<message key="admin.languages.supportedLocalesInstructions">เลือกภาษาที่จะรองรับสำหรับระบบการจัดการประชุมวิชาการนี้ โดยภาษาที่เลือกจะสามารถใช้ได้กับทุกการประชุมวิชาการในระบบ นอกจากนี้ยังปรากฏในเมนูสำหรับภาษาเฉพาะแต่ละหน้าอีกด้วย หากเลือกเพียงภาษาเดียว ตัวเลือกสำหรับการเลือกภาษาอื่นๆจะไม่ปรากฏขึ้น</message>
+	<message key="admin.locale.maybeIncomplete">ภาษาที่ถูกเลือกไม่สมบูรณ์</message>
+	<message key="admin.languages.confirmUninstall">โปรดยืนยันการลบภาษานี้  การกระทำนี้จะส่งผลต่อทุกการประชุมวิชาการในระบบที่ใช้ภาษานี้</message>
+	<message key="admin.languages.installNewLocalesInstructions">เลือกติดตั้งภาษาอื่นๆเพิ่มเติมสำหรับระบบการจัดการประชุมวิชาการนี้ ภาษาต่างๆจำเป็นต้องได้รับการติดตั้งก่อนจะถูกเลือกใช้ในแต่ละการประชุมวิชาการ ตรวจสอบคู่มือ OCS เพิ่มเติมสำหรับรายละเอียดอื่นๆในการเพิ่มภาษาใหม่</message>
+	<message key="admin.auth.enableSyncProfiles">เปิดระบบเชื่อมโยงข้อมูลของผู้ใช้งาน (ถ้ารองรับ) ข้อมูลผู้ใช้งานจะถูกปรับปรุงอัตโนมัติกับฐานข้อมูลภายนอกเมื่อผู้ใช้งานเข้าสู่ระบบ ปรับเปลี่ยนข้อมูล (รวมถึงรหัสผ่าน) หากตัวเลือกนี้ไม่ได้ถูกใช้งานข้อมูลผู้ใช้งานจะถูกเก็บแยกจากกัน</message>
+	<message key="admin.auth.enableSyncPasswords">เปิดระบบแก้ไขรหัสผ่านของผู้ใช้งาน (ถ้ารองรับ) ผู้ใช้งานสามารถแก้ไขรหัสผ่าน และสามารถใช้งานฟังก์ชั่น "ลืมรหัสผ่าน" กับฐานข้อมูลภายนอกได้</message>
+	<message key="admin.auth.enableCreateUsers">เปิดระบบสร้างผู้ใช้งาน (ถ้ารองรับ). หากผู้ใช้งานลงทะเบียนในระบบนี้ ข้อมูลผู้ใช้งานจะถูกสร้างขึ้นใหม่ในฐานข้อมูลภายนอกด้วย.</message>
+	<message key="admin.systemVersion">ระบบการจัดการประชุมวิชาการ OCS รุ่น</message>
+	<message key="admin.systemConfiguration">การกำหนดค่าของระบบการจัดการประชุมวิชาการ</message>
+	<message key="admin.systemConfigurationDescription"><![CDATA[OCS configuration settings from <tt>config.inc.php</tt>.]]></message>
+	<message key="admin.hostedConferences">การประชุมวิชาการ</message>
+	<message key="admin.settings.conferenceRedirect">เปลี่ยนเส้นทางการประชุมวิชาการ</message>
+	<message key="admin.settings.conferenceRedirectInstructions">การเชื่อมต่อไปที่หน้าหลัก จะถูกเปลี่ยนเส้นทางมายังการประชุมวิชาการนี้ การตั้งค่านี้จะใช้ได้ดีหากระบบนี้มีการจัดการประชุมวิชาการนี้เพียงการประชุมวิชาการเดียว</message>
+	<message key="admin.settings.noConferenceRedirect">ไม่เปลี่ยนเส้นทาง</message>
+	<message key="admin.auth.ocs">ฐานข้อมูลผู้ใช้งานระบบการจัดการประชุมวิชาการ</message>
+	<message key="admin.conferences.conferenceSettings">กำหนดค่าการประชุมวิชาการ</message>
+	<message key="admin.conferences.noneCreated">ยังไม่มีการประชุมวิชาการใดๆถูกสร้างขึ้น</message>
+	<message key="admin.conferences.confirmDelete">โปรดยืนยันการลบการประชุมวิชาการนี้ และข้อมูลอื่นๆที่เกี่ยวข้อง</message>
+	<message key="admin.conferences.create">สร้างการประชุมวิชาการ</message>
+	<message key="admin.conferences.createInstructions">คุณจะได้รับการแต่งตั้งจากระบบให้เป็นผู้บริหารการประชุมวิชาการนี้โดยอัตโนมัติ โดยหลังจากการสร้างการประชุมวิชาการนี้ขึ้นแล้วคุณจะสามารถแต่งตั้งผู้บริหารการประชุมวิชาการนี้ได้</message>
+	<message key="admin.conferences.urlWillBe">ควรจะเป็นคำย่อ(ภาษาอังกฤษ)  ที่สื่อถึงการประชุมวิชาการนี้  ที่อยู่ของการประชุมวิชาการนี้จะเป็น {$sampleUrl}</message>
+	<message key="admin.conferences.form.titleRequired">ต้องการชื่อเรื่อง</message>
+	<message key="admin.conferences.form.pathRequired">ต้องการที่อยู่</message>
+	<message key="admin.conferences.form.pathAlphaNumeric">ที่อยู่สามารถประกอบด้วย ตัวเลขและตัวอักษร , สัญลักษณ์ขีดเส้นใต้ , สัญลักษณ์ขีดสั้น และต้องเริมต้นด้วยตัวเลขหรือตัวอักษรเท่านั้น</message>
+	<message key="admin.conferences.form.pathExists">ที่อยู่ที่ถูกเลือกถูกใช้ในการประชุมวิชาการอื่นแล้ว</message>
+	<message key="admin.conferences.enableConferenceInstructions">เลือกให้การประชุมวิชาการนี้เป็นสาธารณะ</message>
+	<message key="admin.conferences.scheduleConferenceInstructions">ดำเนินการต่อไปเพื่อกำหนดตารางเวลาการประชุมวิชาการ</message>
+	<message key="admin.conferences.conferenceDescription">รายละเอียดการประชุมวิชาการ</message>
+	<message key="admin.conferences.conferenceDescriptionInstructions">รายละเอียดของการประชุมวิชาการควรประกอบด้วยวัตถุประสงค์ของการประชุมวิชาการนี้ ข้อมูลนี้จะปรากฏบนหน้าแรกของการประชุมวิชาการ</message>
+	<message key="admin.conferences.importOCS1">นำเข้าจากระบบการจัดการประชมุวิชาการ OCS 1</message>
+	<message key="admin.conferences.importOCS1.editMigratedConference">แก้ไขการประชุมที่ถูกโยกย้าย</message>
+	<message key="admin.conferences.importOCS1.conflict.desc">บัญชีผู้ใช้งานมีความซ้ำซ้อน ในระบบการจัดการประชุมวิชาการ OCS 1.x อนุญาตให้ใช้อีเมล์เดียวกันในการสมัครหลายบัญชีผู้ใช้งาน ซึ่งไม่รองรับในระบบ OCS 2.x ในรายการต่อไปนี้บัญชีผู้ใช้งานที่ปรากฏจะถูกใช้อีเมล์ชั่วคราวทดแทน ซึ่งจำเป็นต้องเลือกด้วยตนเอง หรือเปลี่ยนอีเมล์ หรือรวมบัญชีผู้ใช้งานเขาด้วยกัน</message>
+	<message key="admin.conferences.importOCS1.errors.desc">ความผิดพลาดดังต่อไปนี้เกิดขึ้นเมื่อพยายามโยกย้ายจากระบบการจัดการประชุมวิชาการ OCS 1.x ไปยัง ระบบการจัดการประชุมวิชาการ OCS 2.x</message>
+	<message key="admin.conferences.importOCS1.conflict">{$firstUsername} ({$firstName}) และ {$secondUsername} ({$secondName})</message>
+	<message key="admin.conferences.importOCS1Instructions"><![CDATA[Consult the UPGRADE document distributed with OCS for detailed information on migrating data from OCS 1 to OCS 2. Note that this process will NOT create a completely configured OCS 2 conference; only certain items (e.g. papers) will be imported. <strong>All imported users will need to reset their passwords. It is strongly suggested that the Conference Director review all imported information before launching the conference website.</strong>]]></message>
+	<message key="admin.conference.pathImportInstructions">ที่อยู่ที่มีอยู่แล้ว หรือสร้างที่อยู่ขึ้นใหม่ (ตัวอย่างเช่น., "ocs").</message>
+	<message key="admin.conference.importPath">ที่อยู่ OCS 1</message>
+	<message key="admin.conference.importPathInstructions">ที่อยู่แบบสมบูรณ์ของ OSC 1 (e.g., "/var/www/ocs").</message>
+	<message key="admin.conferences.importRegistrations">นำเข้าการลงทะเบียน</message>
+	<message key="admin.conferences.emailUsers">ส่งอีเมล์เพื่อแจ้งข้อมูลการสู่ระบบ รวมถึงรหัสผ่าน</message>
+	<message key="admin.conferences.transcode">เปลี่ยนรูปแบบเมตาดาตาของเอกสารเป็น ISO8859-1</message>
+	<message key="admin.conferences.form.importPathRequired">จำเป็นต้องมีข้อมูลที่อยู่ของการนำเข้า</message>
+	<message key="admin.conferences.importErrors">การนำเข้าล้มเหลว</message>
+
+	<!-- Site Administration Merge Users -->
+	<message key="admin.mergeUsers">รวมบัญชีผู้ใช้งาน</message>
+	<message key="admin.mergeUsers.mergeUser">รวมผู้ใช้งาน</message>
+	<message key="admin.mergeUsers.into.description">เลือกผู้ใช้งานที่จะเป็นผู้รับผิดชอบการส่งผลงาน การมอบหมายต่างๆ</message>
+	<message key="admin.mergeUsers.from.description">เลือกเพื่อรวมผู้ใช้งานเข้าด้วยกัน. บัญชีผู้ใช้งานที่ถูกเลือกในลำดับแรกจะถูกลบ และการส่งผลงาน การมอบหมายต่างๆ จะถูกรับผิดชอบโดยบัญชีลำดับถัดไป</message>
+	<message key="admin.mergeUsers.allUsers">ผู้ใช้งานทั้งหมด</message>
+	<message key="admin.mergeUsers.confirm">มั่นใจหรือไม่ว่าต้องการรวมผู้ใช้งาน {$oldAccountCount} บัญชี ไปยังบัญชี "{$newUsername}"? ผู้ใช้งานที่ถูกเลือก {$oldAccountCount} บัญชี จะถูกลบโดยถาวร.</message>
+	<message key="admin.mergerUsers.noneEnrolled">ไม่มีบัญชีผู้ใช้งาน</message>
+</locale>
